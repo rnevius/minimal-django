@@ -5,6 +5,9 @@ The aim of this repository is to highlight the fact that a Django project, when 
 
 ### To run it:
 
-1. Clone this repository
-2. `python minimal.py runserver`
-3. Open a browser to `http://127.0.0.1:8000/`
+1. Install [Python](https://www.python.org/downloads/)
+2. Install [Django](https://docs.djangoproject.com/en/1.9/topics/install/). If you have pip: `pip install Django`
+3. Clone this repository: `git clone https://github.com/rnevius/minimal-django.git`
+4. Switch to the project directory: `cd minimal-django`
+5. Run the development server: `python minimal.py runserver`
+6. Open a browser to `http://127.0.0.1:8000/`
