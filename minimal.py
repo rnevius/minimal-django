@@ -7,7 +7,6 @@ from django.http import HttpResponse
 
 settings.configure(
     DEBUG=True,
-    SECRET_KEY='A-random-secret-key!',
     ROOT_URLCONF=sys.modules[__name__],
 )
 
