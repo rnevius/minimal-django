@@ -1,7 +1,7 @@
 import sys
 
 from django.conf import settings
-from django.conf.urls import url
+from django.urls import path
 from django.core.management import execute_from_command_line
 from django.http import HttpResponse
 
@@ -14,8 +14,9 @@ settings.configure(
 def index(request):
     return HttpResponse('<h1>A minimal Django response!</h1>')
 
+
 urlpatterns = [
-    url(r'^$', index),
+    path(r'', index),
 ]
 
 if __name__ == '__main__':
