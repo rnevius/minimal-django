@@ -7,6 +7,7 @@ from django.http import HttpResponse
 
 settings.configure(
     DEBUG=True,
+    IGNORABLE_404_URLS=[r'^favicon\.ico$'],
     ROOT_URLCONF=sys.modules[__name__],
 )
 
